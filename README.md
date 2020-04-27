@@ -30,3 +30,11 @@ const dev = {
  "start": "REACT_APP_STAGE=dev react-scripts start",
  "build": "REACT_APP_STAGE=production react-scripts build",
  ```
+
+## import config data:
+
+import config from './config'
+
+
+
+console.log(config.HostUrl); // based on stage, url will change in ur app
