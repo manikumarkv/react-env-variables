@@ -1,8 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import config from './config'
 
 function App() {
+  console.log(config.HostUrl);
   return (
     <div className="App">
       <header className="App-header">
